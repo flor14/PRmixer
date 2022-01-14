@@ -1,5 +1,5 @@
 Package: PRmixer
-Title: An R package to help distributing students for peer review activities
+Title: An R package to help assigning students as reviewers for peer review activities.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Florencia",
@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "florencia.dandrea@gmail.com",
            comment = c(ORCID = "0000-0002-0041-097X"))
-Description: This package allows students to be randomized into groups of different sizes as reviewers of another group. The function considers that: (1) Students cannot be assigned as reviewers of the same group, (2) All groups must have reviewers.
-License: MIT + file LICENSE
+Description: The package PeerReview Mixer (PRmixer) helps to assign randomly students belonging from one group as reviewers of another group. The function ` PRmixer::assign_reviewers()` considers that: (1) Students cannot be assigned as reviewers of the same group, (2) All groups must have reviewers.
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

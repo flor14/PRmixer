@@ -4,16 +4,16 @@
 \alias{assign_reviewer}
 \title{Assign reviewers to project groups}
 \usage{
-assign_reviewer(seed, data, groups_rw, reviewers)
+assign_reviewer(seed, dataset, groups_rw, reviewers)
 }
 \arguments{
 \item{seed}{A random number. If you want reproducible results you need to use always the same seed number.}
 
+\item{dataset}{A data.frame or tibble with a column with the student's group number (group_num).}
+
 \item{groups_rw}{Max number of groups to review.}
 
 \item{reviewers}{Max number of reviewers per group.}
-
-\item{dataset}{A data.frame or tibble with a column with the student's group number (group_num).}
 }
 \value{
 The same data.frame with the column group_to_review.
@@ -25,7 +25,7 @@ Assign reviewers to project groups
 
 data(students)
 assign_reviewer(seed = 2021,
-               # dataset = students,
+                dataset = students,
                 groups_rw = 30,
                 reviewers = 4)
 

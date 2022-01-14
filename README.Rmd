@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# PRmixer
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The package **P**eer**R**eview **Mixer** helps to assign randomly students belonging from one group as reviewers of another group. The function ` PRmixer::assign_reviewers()` considers that: (1) Students cannot be assigned as reviewers of the same group, (2) All groups must have reviewers.
+
+## Installation
+
+You can install the released version of PRmixer from [CRAN](https://CRAN.R-project.org) with:
+
+```r
+install.packages("PRmixer")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+```r
+# install.packages("devtools")
+devtools::install_github("flor14/PRmixer")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(PRmixer)
+
+## basic example code
+assign_reviewer(seed = 2021,
+                dataset = PRmixer::students,
+                groups_rw = 30,
+                reviewers = 4)
+
+```
+**Note:** The stuedents names for this example has been created by `randomNames` package.

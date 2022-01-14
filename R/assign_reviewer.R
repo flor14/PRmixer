@@ -18,12 +18,12 @@ library(tibble)
 #'
 #' data(students)
 #' assign_reviewer(seed = 2021,
-#'                # dataset = students,
+#'                 dataset = students,
 #'                 groups_rw = 30,
 #'                 reviewers = 4)
 #'
 #'
-assign_reviewer <- function(seed, data, groups_rw, reviewers){
+assign_reviewer <- function(seed, dataset, groups_rw, reviewers){
 
   set.seed(seed)
 
