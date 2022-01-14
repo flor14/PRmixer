@@ -6,10 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The package **P**eer**R**eview **Mixer** helps to assign randomly
-students belonging from one group as reviewers of another group. The
-function `PRmixer::assign_reviewers()` considers that: (1) Students
-cannot be assigned as reviewers of the same group, (2) All groups must
+The package **P**eer **R**eview **Mixer** (PRMixer) goal is to assign
+randomly students from one group as reviewers of another group. The
+function `PRmixer::assign_reviewers()` considers that: (1) students
+cannot be assigned as reviewers of their same group, (2) all groups must
 have reviewers.
 
 ## Installation

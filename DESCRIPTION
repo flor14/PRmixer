@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "florencia.dandrea@gmail.com",
            comment = c(ORCID = "0000-0002-0041-097X"))
-Description: The package PeerReview Mixer (PRmixer) helps to assign randomly students belonging from one group as reviewers of another group. The function ` PRmixer::assign_reviewers()` considers that: (1) Students cannot be assigned as reviewers of the same group, (2) All groups must have reviewers.
+Description: The package PeerReview Mixer (PRmixer) goal is to assign randomly students from one group as reviewers of another group. The function ` PRmixer::assign_reviewers()` considers that: (1) students cannot be assigned as reviewers of their same group, (2) all groups must have reviewers.
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
