@@ -1,0 +1,23 @@
+Package: PRmixer
+Title: An R package to help distributing students for peer review activities
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Florencia",
+           family = "D'Andrea",
+           role = c("aut", "cre"),
+           email = "florencia.dandrea@gmail.com",
+           comment = c(ORCID = "0000-0002-0041-097X"))
+Description: This package allows students to be randomized into groups of different sizes as reviewers of another group. The function considers that: (1) Students cannot be assigned as reviewers of the same group, (2) All groups must have reviewers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    tibble,
+    readr
