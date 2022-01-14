@@ -55,4 +55,4 @@ assign_reviewer(seed = 2021,
 #> 10    10 Delong      Tiffany        L01           3              28
 #> # ... with 106 more rows
 ```
-**Note:** The stuedents names for this example has been created by `randomNames` package.
+**Note:** The students names for this example have been created by `randomNames` package.

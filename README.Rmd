@@ -48,4 +48,4 @@ assign_reviewer(seed = 2021,
                 reviewers = 4)
 
 ```
-**Note:** The stuedents names for this example has been created by `randomNames` package.
+**Note:** The students names for this example have been created by `randomNames` package.

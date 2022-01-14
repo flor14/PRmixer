@@ -56,5 +56,5 @@ assign_reviewer(seed = 2021,
 #> # ... with 106 more rows
 ```
 
-**Note:** The stuedents names for this example has been created by
+**Note:** The students names for this example have been created by
 `randomNames` package.
