@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # PRmixer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/flor14/PRmixer/workflows/R-CMD-check/badge.svg)](https://github.com/flor14/PRmixer/actions)
 <!-- badges: end -->
 
 The package **P**eer **R**eview **Mixer** (PRMixer) goal is to assign randomly students from one group as reviewers of another group. The function ` PRmixer::assign_reviewers()` considers that: (1) students cannot be assigned as reviewers of their same group, (2) all groups must have reviewers.
