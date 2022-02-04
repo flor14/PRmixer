@@ -22,6 +22,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     tibble,
-    readr
+    readr,
+    dplyr
 VignetteBuilder: knitr
 License: MIT + file LICENSE

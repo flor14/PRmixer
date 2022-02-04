@@ -11,7 +11,7 @@ students <- assign_reviewer(seed = 2021,
 
 # let's see if it is balanced.
 total <- students |>
-          count(group_to_review)
+          dplyr::count(group_to_review)
 
 ### TESTS
 print("Relation groups to review / students")

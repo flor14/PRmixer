@@ -1,9 +1,6 @@
 ### Florencia D'Andrea
 ### Nov 27th, 2021
 
-library(readr)
-library(tibble)
-
 #' Assign reviewers to project groups
 #'
 #' @param seed A random number. If you want reproducible results you need to use always the same seed number.
